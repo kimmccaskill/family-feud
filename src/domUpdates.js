@@ -1,11 +1,11 @@
 import $ from 'jquery';
-import apiData from '../src/index.js';
-import Player from './player';
-import Game from './game';
-import Turn from './turn';
-import Round from './round';
-import './index';
-import data from './data.js';
+// import apiData from '/src/index.js';
+// import Player from './player';
+// import Game from './game';
+// import Turn from './turn';
+// import Round from './round';
+// import index from './index.js';
+// import data from './data.js';
 
 const domUpdates = {
   openInfo(player1) {
@@ -21,8 +21,7 @@ const domUpdates = {
   },
 
   loadDOM() {
-  $('.instructions-page').toggle('.hide-class');
-  this.displayGamePage();
+    $('.instructions-page').toggle('.hide-class');    this.displayGamePage();
   },
 
   displayGamePage() {

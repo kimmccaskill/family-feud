@@ -3,6 +3,8 @@ const expect = chai.expect;
 import Round from '../src/round';
 import Player from '../src/player';
 import data from '../src/data';
+const spies = require('chai-spies');
+
 
 let surveys1, answers1, playerT1, playerT2, round1;
 
