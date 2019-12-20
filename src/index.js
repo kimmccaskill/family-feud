@@ -17,9 +17,7 @@ const getApiData = () => {
 }
 getApiData();
 
-// console.log(apiData);
 function startGame(data) {
-  // console.log(data);
   game = new Game(data.data);
   game.findSurveys();
 }
@@ -50,6 +48,8 @@ const checkInput = () => {
   }
 }
 
+
 // Event Listeners
+$(".answer-card").click(flipCard);
 $(".info-btn").click(domUpdates.openInfo)
 $(".close-btn").click(domUpdates.closeInfo)
